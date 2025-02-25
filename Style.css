@@ -220,3 +220,122 @@ color: #666;
     width: 120px;
     margin-right: 10px;
 }
+.container4,.grid,.card a{
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .first {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .first a {
+        font-size: 16px;
+    }
+    .sec {
+        font-size: 60px;
+    }
+    .third {
+        font-size: 30px;
+        text-align: center;
+    }
+    .four input {
+        width: 80%;
+    }
+    .dabba {
+        flex-wrap: wrap;
+    }
+    .item {
+        width: 45%;
+    }
+    .container4 h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 350px;
+    }
+    .first {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .first a {
+        font-size: 14px;
+    }
+    .sec {
+        font-size: 50px;
+    }
+    .third {
+        font-size: 24px;
+    }
+    .four input {
+        width: 90%;
+        height: 40px;
+    }
+    .dabba {
+        flex-direction: column;
+        align-items: center;
+    }
+    .item {
+        width: 90%;
+    }
+    .container3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .item3 {
+        width: 90%;
+    }
+    .app-mobile {
+        flex-direction: column;
+        text-align: center;
+    }
+    .app-text {
+        max-width: 90%;
+    }
+    .input-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    #input-field {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        height: 300px;
+    }
+    .sec {
+        font-size: 40px;
+    }
+    .third {
+        font-size: 20px;
+    }
+    .four input {
+        width: 95%;
+        height: 35px;
+    }
+    .item {
+        width: 100%;
+    }
+    .container4 h1 {
+        font-size: 20px;
+    }
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .app-image img {
+        width: 100%;
+    }
+    .app-text h1 {
+        font-size: 24px;
+    }
+}
