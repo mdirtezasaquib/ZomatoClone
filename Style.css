@@ -8,7 +8,7 @@ body {
     color: white;
 }
 .container {
-    background-image: url('/ZOMATO\ PROJECT/IMAGE/first.png');
+    background-image: url('IMAGE/first.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -220,6 +220,7 @@ color: #666;
     width: 120px;
     margin-right: 10px;
 }
+<<<<<<< HEAD
 .container4,.grid,.card a{
     text-decoration: none;
 }
@@ -339,3 +340,5 @@ color: #666;
         font-size: 24px;
     }
 }
+=======
+>>>>>>> f720fb2253952ce7db7549b76d8325b36964c5fc
