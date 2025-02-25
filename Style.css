@@ -224,6 +224,15 @@ color: #666;
     text-decoration: none;
 }
 
+/* Reset Scroll Issue */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden; /* Left-Right Scroll हटाने के लिए */
+}
+
 /* Mobile Responsive (Max-width: 768px) */
 @media (max-width: 768px) {
     .container {
@@ -232,68 +241,83 @@ color: #666;
         text-align: center;
     }
 
+    /* Navbar */
     .first {
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
         align-items: center;
+        width: 100%;
     }
 
     .first a {
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 18px;
+        padding: 10px;
     }
 
+    /* Title Text */
     .sec {
-        font-size: 50px;
+        font-size: 55px; /* बड़ा किया */
+        font-weight: bold;
     }
 
     .third {
-        font-size: 24px;
+        font-size: 28px;
     }
 
+    /* Search Box */
     .four input {
         width: 90%;
         height: 45px;
+        font-size: 18px;
     }
 
+    /* Cards Section */
     .dabba {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .item {
         width: 90%;
+        height: auto;
+        padding: 15px;
     }
 
-    .container3 {
-        flex-direction: column;
-        align-items: center;
+    .item img {
+        height: 180px;
     }
 
-    .item3 {
-        width: 90%;
-    }
-
+    /* Grid Section */
     .grid {
         grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
     }
 
+    .card {
+        width: 100%;
+    }
+
+    /* App Section */
     .app-mobile {
         flex-direction: column;
-        gap: 20px;
         text-align: center;
+        padding: 20px;
     }
 
     .app-text {
         max-width: 100%;
+        font-size: 18px;
     }
 
     #input-field {
-        width: 80%;
+        width: 85%;
+        font-size: 16px;
     }
 
     .app-stores img {
-        width: 100px;
+        width: 110px;
     }
 }
 
@@ -304,7 +328,7 @@ color: #666;
     }
 
     .sec {
-        font-size: 60px;
+        font-size: 65px; /* थोड़ा बड़ा किया */
     }
 
     .third {
@@ -313,6 +337,7 @@ color: #666;
 
     .four input {
         width: 80%;
+        font-size: 18px;
     }
 
     .dabba {
@@ -321,7 +346,8 @@ color: #666;
     }
 
     .item {
-        width: 45%;
+        width: 48%;
+        height: auto;
     }
 
     .container3 {
@@ -329,7 +355,7 @@ color: #666;
     }
 
     .item3 {
-        width: 45%;
+        width: 48%;
     }
 
     .grid {
